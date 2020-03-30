@@ -38,14 +38,19 @@
             <div class="container-form-reservation">
                 <form action="/">
                 <p class="input-name">Name:</p>
-                <label for="name"><input type="text" id="name" name="name"></label>
+                <label for="name"><input type="text" id="name" name="name" required></label>
                 <p class="input-name">Email:</p>
-                <label for="email"><input type="email" id="email" name="email"></label>
+                <label for="email"><input type="email" id="email" name="email" required></label>
                 <p class="input-name">Phone Number:</p>
-                <label for="ph-number"><input type="text" id="ph-number" name="ph-number"></label>
+                <label for="ph-number"><input type="text" id="ph-number" name="ph-number" required></label>
                 <p class="input-name">Request Date & Time:</p>
                 <label for="date"><input type="date" id="date" name="date-time" min="20.02.2020" max="31.08.2020"></label>
+                <p class="input-name">Party Size:</p>
+                <label for="party"><input type="text" id="party" name="party-size" placeholder="min. 10"></label>
+                <p class="input-name">Is this a special occasion? Other information we should know?:</p>
+                <label><textarea name="textarea" id="textarea" cols="30" rows="10"></textarea></label>
                 <input type="submit">
+
                 </form>
             </div>
         </section>
