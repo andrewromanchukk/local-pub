@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700&display=swap');
+
+:root{
+    font-family: 'Lora', serif;
+}
+header, body,ul,h4, p{
+    margin:0;
+    padding:0;
+}
+header {
+    background-color: #000;
+}
+li{
+    list-style: none;
+}
+.top-menu li a{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fff;
+    padding: 5px;
+    border:1px solid transparent; 
+}
+.top-menu li a:hover{
+    border-bottom: 1px solid #fff;
+}
+.header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(min-width:500px){
+    .header nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .top-menu{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+    }
+}
+.baner{
+    background-color: rgba(0, 0, 0, 0.753);
+    display: grid;
+    justify-items: center;
+}
+.baner-paragraph h4{
+    text-transform: uppercase;
+    color:#fff;
+    font-size:30px;
+    text-align:center;
+}
+.baner-paragraph p{
+    color:#fff;
+    font-size: 18px;
+    text-align:center;
+}
