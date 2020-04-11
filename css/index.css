@@ -3,7 +3,29 @@
 :root{
     font-family: 'Lora', serif;
 }
+/* DEFAULT CLASSES */
+.default-container-text{
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+.main-headings{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align:center;
+    color:#fff;
+    border-bottom: 1px solid;
+    border-bottom-width:thin;
+}
+.mini-headings{
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    margin: 25px 0
+}
 
+/* DEFAULT CLASSES */
 header, body,ul,h4, p{
     margin:0;
     padding:0;
@@ -60,9 +82,7 @@ li{
     }
     
 }
-/* .wrapper{
-    background-image: url(img/bg1.jpg);
-} */
+
 
 .baner{
     background-color: rgba(0, 0, 0, 0.753);
@@ -88,15 +108,7 @@ li{
 .baner-paragraph{
     margin: 5px 0;
 }
-.choose-your-favorite-heading h1{
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align:center;
-    color: #fff;
-    border-bottom: 1px solid;
-    border-bottom-width:thin;
-    
-}
+
 
 .container-beer-slider{
 background-color: rgba(29, 27, 27, 1);
@@ -114,25 +126,21 @@ font-size: 11px;
 text-align: center;
 color:white;
 }
-.about-us-heading h1{
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align:center;
-    color:#fff;
-    border-bottom: 1px solid;
-    border-bottom-width:thin;
-}
+
 .about-us-container{
     background-color: #0D0D0D;
     color: #fff;
     text-align:center;
     padding:15px 5px;
 }
+.default-container-text{
+    font-size: 14px;
+}
 .about-us-container img{
     display:none;
 }
 .eat-tap-here{
-    height: 600px;
+    height: 500px;
 }
 .eat-here{
     height: 150px;
@@ -141,5 +149,91 @@ color:white;
     transform: rotate(-45deg);
     margin: auto;
     position: relative;
-    top: 100px;
+    top: 50px;
+    background-color: rgba(196, 196, 196, 0.5);
 }
+.eat-here a{
+    color: #fff;
+    transform: rotate(45deg);
+    position:absolute;  
+    top: 55px;
+    left:15px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.eat-here a:hover{
+    color:black;
+}
+.eat-here:hover{
+    border-color:black;
+}
+.tap-here{
+    position:relative;
+    top: 140px;
+}
+.tap-here a:hover {
+    color:black;
+
+}
+.tap-here:hover{
+    color:black;
+}
+
+.container-private-events-reservations{
+    background-color: #000000;
+    color:#fff;
+    padding:20px 0;
+}
+.container-private-events-reservations h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding:15px 0px;
+}
+.container-private-events-reservations p{
+    text-align: center;
+    padding:10px 0;     
+}
+.container-private-events-reservations p a{
+    color: #fff;
+}
+.button-container{
+  display: flex;
+  justify-content: center;  
+}
+.reservation-button{
+    border: 1px solid #fff;
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(196, 196, 196, 0.13); 
+    
+}
+.container-location-hours{
+    border: 2px solid #fff;
+    background-color: rgba(19, 19, 19, 0.82);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+   
+}
+.icons-social{
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    height: 30px;
+    padding:5px;
+}
+
+

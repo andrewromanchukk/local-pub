@@ -61,7 +61,7 @@
         </div>
         <div class="choose-your-favorite">
             <div class="choose-your-favorite-heading">
-                <h1>choose your favorite</h1>
+                <h1 class="main-headings">choose your favorite</h1>
             </div>
             <div class="container-beer-slider">
                 <img src="img/marshall_rocknroll_craft_bier.png" alt="">
@@ -72,10 +72,10 @@
         </div>
         <div class="about-us">
             <div class="about-us-heading">
-                <h1>about us</h1>
+                <h1 class="main-headings">about us</h1>
             </div>
             <div class="about-us-container">
-                <p> We host a huge variety of craft beer, wine, cider, and kombucha for you to pour as much or as little as you’d like! Our taps are ever-rotating to bring you a wide selection of craft and small-batch libations from across the country. Check out our taplist for the latest! </p>
+                <p class="default-container-text"> We host a huge variety of craft beer, wine, cider, and kombucha for you to pour as much or as little as you’d like! Our taps are ever-rotating to bring you a wide selection of craft and small-batch libations from across the country. Check out our taplist for the latest! </p>
                 <div class="container-about-us-gallery">
                     <img src="img/about_us1.jpg" alt="">
                     <img src="img/about-us2.jpg" alt="">
@@ -87,31 +87,35 @@
         </div>
         <div class="eat-tap-here" style="background-image:url(img/bg2.jpg); mix-blend-mode: luminosity;  background-size: contain;">
             <div class="eat-here">
-                <p>eat here</p>
+                <a href="#">eat here</a>
             </div>
-            <div class="tap-here">
-                <p>tap-here</p>
+            <div class="tap-here eat-here">
+                
+                <a href="#" class="">tap here</a>
             </div>
         </div>
         <div class="private-events-reservations">
             <div class="private-events-reservations-header">
-                <h1>private events & reservations</h1>
+                <h1 class="main-headings">private events & reservations</h1>
             </div>
             <div class="container-private-events-reservations">
                 <h2>fancy a beer party?</h2>
-                <p>We accept reservations for 10+ people. Please check out our Reservations Page.</p>
-                <p>If you're interested in renting out any part of the restaurant, or a full space buyout please email owner Joe Maselter at joe@fwww.beer for pricing and food menus.</p>
+                <p class="default-container-text">We accept reservations for 10+ people. Please check out our <a href="reservations.html"> Reservations Page</a>.</p>
+                <p class="default-container-text">If you're interested in renting out any part of the restaurant, or a full space buyout please email owner Joe Maselter at joe@fwww.beer for pricing and food menus.</p>
+                <div class="button-container">
+                <a href="reservations.html" class="reservation-button">reservation</a>
+                </div>
             </div>
-            <button class=reservation>reservation</button>
+            
         </div>
         <div class="location-hours">
             <div class="location-events-header">
-                <h1>location & hours</h1>
+                <h1 class="main-headings">location & hours</h1>
             </div>
             <div class="container-location-hours">
                 <div class="location-hours-address">
-                    <h6>address</h6>
-                    <p> 324 6th Avenue N <br>
+                    <h6 class="mini-headings">address</h6>
+                    <p class="default-container-text"> 324 6th Avenue N <br>
 
                         Minneapolis, MN 55401 <br> 
 
@@ -120,8 +124,8 @@
                         </p>
                 </div>
                 <div class="location-hours-opening-hours">
-                    <h6>opening hours</h6>
-                    <p>
+                    <h6 class="mini-headings">opening hours</h6>
+                    <p class="default-container-text">
 
                         Sunday   11:00AM-9:00PM <br>
 
@@ -143,11 +147,13 @@
 </div>
     <footer>
             <p>Copyright</p>
-            <img src="" alt="facebook">
-            <img src="" alt="twitter">
-            <img src="" alt="telegram">
-            <img src="" alt="instagram">
-    </footer>
+            <div class="icons-social">
+                <img src="img/facebook.png" alt="facebook">
+                <img src="img/twitter.png" alt="twitter">
+                <img src="img/telegram.png" alt="telegram">
+                <img src="img/instagram.png" alt="instagram">
+            </div>
+        </footer>
 
 </body>
 </html>
