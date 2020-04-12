@@ -4,116 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/menu.css"><title>Document</title>
 </head>
-<body>
-    <header>
-        <a href="index.html/">
-            <img src="/logo/" alt="logo-mini">
-        </a>
-        <a href="index.html">home</a>
-        <a href="menu.html">menu</a>
-        <a href="taplist.html">tap list</a>
-        <a href="reservations.html">reservations</a>
-        <a href="events-catering.html">events/cathering</a>
-        <a href="location.html">location&hours</a>
-    </header>
-    <main>
+<body >
+    <div class="wrapper" style="background: linear-gradient(0deg, rgba(19, 19, 19, 0.82), rgba(19, 19, 19, 0.82)), url(img/bg1.jpg); background-attachment: fixed; background-size: contain;">
+    <header class="header">
+        
+        <nav>
+            <a href="index.html"><img src="img/logo-mini.png" alt="logo-mini"></a>
+            <ul class="top-menu">
+                <li><a href="index.html" class="menu-link">home</a></li>
+                <li><a href="menu.html" class="menu-link">menu</a></li>
+                <li><a href="taplist.html" class="menu-link">taplist</a></li>
+                <li><a href="reservations.html" class="menu-link">reservations</a></li>
+                <li><a href="events-catering.html" class="menu-link">events-catering</a></li>
+                <li><a href="location.html" class="menu-link">location</a></li>
+            </ul>
+        </nav>
+    
+</header>
+    <main class=""   >
+        <div class="container-main">
         <!-- HEADER-MENU-START -->
-        <section class="the-menu">
+        
             <div class="menu-header">
                 <h1 class="header-section-menu">The menu</h1>
                 <p>Our kitchen serves delectable plates and shareable items that pair with our beverage offerings. *These items are served raw or undercooked. Consuming raw or undercooked meats, eggs, poultry, seafood, or shellfish may increase your risk of foodborne illness.</p>
             </div>
-        </section>
+        
         <!-- HEADER-MENU-END -->
 
         <!--SMALL-PLATES-MENU-START -->
-        <section class="small-plates">
+        <div class="small-plates">
             <div class="menu-header">  
                 <h1 class="header-section-menu">Small plates</h1>
                 <p class="desc-header-section-menu">Have a nibble or mix & match</p>
             </div>
+            <hr>
             <!-- menu-items-start -->
-            <div class="menu-item">
-                <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                <span class="menu-item-price">7$</span>
-                <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-            </div>
-            <div class="menu-item">
-                <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                <span class="menu-item-price">7$</span>
-                <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-            </div>
-            <div class="menu-item">
-                <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                <span class="menu-item-price">7$</span>
-                <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-            </div>
-            <div class="menu-item">
-                <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                <span class="menu-item-price">7$</span>
-                <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-            </div>
-            <div class="menu-item">
-                <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                <span class="menu-item-price">7$</span>
-                <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-            </div>
-            <div class="menu-item">
-                <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                <span class="menu-item-price">7$</span>
-                <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
+                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
+                    <span class="menu-item-price">7$</span>
+                    <div class="icons">
+                        <img class="img-menu-item" src="img/icon-vegan-food.png" alt="Veterian">
+                        
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <h4 class="menu-item-heading">TRUFFLE FRIES</h4>
+                    <p class="menu-item-igridients">flat fries, white truffle parmesan seasoning</p>
+                    <span class="menu-item-price">5$</span>
+                    <div class="icons">
+                        <img class="img-menu-item" src="img/icon-vegan-food.png" alt="Veterian">
+                        <img class="img-menu-item" src="img/gluten-free.svg" alt="Gluten free">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <h4 class="menu-item-heading">HANDMADE PRETZELS</h4>
+                    <p class="menu-item-igridients">stone ground mustard & creamy beer cheese</p>
+                    <span class="menu-item-price">8$</span>
+                    <div class="icons">
+                        <img class="img-menu-item" src="img/icon-vegan-food.png" alt="Veterian">
+                        
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <h4 class="menu-item-heading">CRISPY BRUSSELS SPROUTS</h4>
+                    <p class="menu-item-igridients">citra hop aioli</p>
+                    <span class="menu-item-price">9$</span>
+                    <div class="icons">
+                        
+                        <img class="img-menu-item" src="img/gluten-free.svg" alt="Gluten free">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <h4 class="menu-item-heading">MINNESOTA SUSHI</h4>
+                    <p class="menu-item-igridients">pickles wrapped with ham & prosciutto, herbed cream cheese, & bacon</p>
+                    <span class="menu-item-price">8$</span>
+                    <div class="icons">
+                    
+                        <img class="img-menu-item" src="img/gluten-free.svg" alt="Gluten free">
+                    </div>         
+                </div>
+                <div class="menu-item">
+                    <h4 class="menu-item-heading">DEVILED EGGS</h4>
+                    <p class="menu-item-igridients">see menu chalkboard for our weekly features</p>
+                    <span class="menu-item-price">6$</span>
+                
+                </div>
             </div>
             <!-- menu-items-end -->
-        </section>
+        </div>
             <!-- SMALL-PLATES-MENU-END -->
 
             <!-- SHAREABLE-BOARDS-MENU-START -->
-            <section class="shareable-boards">
+            <div class="shareable-boards">
                 <div class="menu-header">
                     <h1 class="header-section-menu">Shareable boards</h1>
                     <p class="desc-header-section-menu">Have a nibble or mix & match</p>
                 </div>
+                <hr>
                 <!-- menu-items-start -->
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">BACKYARD GRILLED STEAK*</h4>
+                        <p class="menu-item-igridients">blue cheese butter, bacon jam, signature First Draft balsamic glaze, Reval greens, grilled onion</p>
+                        <span class="menu-item-price">17$</span>
+                        <img class="img-menu-item" src="img/gluten-free.svg" alt="Gluten free">
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">CRAFT BEER LOVER</h4>
+                        <p class="menu-item-igridients">grilled local sausages, grilled onion, pickles, cheese</p>
+                        <span class="menu-item-price">14$</span>
+                        <img class="img-menu-item" src="img/gluten-free.svg" alt="Gluten free">
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">CHARCUTERIE & CHEESE</h4>
+                        <p class="menu-item-igridients">daily selection of cheese and cured meats</p>
+                        <span class="menu-item-price">15$</span>
+                        
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">MINNESOTA PUPU PLATTER</h4>
+                        <p class="menu-item-igridients">Minnesota sushi, devilved eggs, walleye cakes</p>
+                        <span class="menu-item-price">14$</span>
+                        
+                    </div>
+                    <div class="menu-item2">
+                        <h4 class="menu-item-heading">MEDITERRANEAN</h4>
+                        <p class="menu-item-igridients">Holy Land hummus, feta, mini pitas, cucumber, tomato, marinated roasted olives</p>
+                        <span class="menu-item-price">14$</span><br>
+                        <img class="img-menu-item" src="img/icon-vegan-food.png" alt="Vegeterian">
+                    </div>
                 </div>
                 <!-- menu-items-end -->
-            </section>
+            </div>
             <!-- SHAREABLE-BOARDS-MENU-END -->
             
             <!-- LARGE-PLATES-MENU-START -->
@@ -122,121 +150,129 @@
                     <h1 class="header-section-menu">Large plates</h1>
                     <p class="desc-header-section-menu">Have a nibble or mix & match</p>
                 </div>
+                <hr>
                 <!-- menu-items-start -->
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">WALLEYE TACOS</h4>
+                        <p class="menu-item-igridients">lemon pepper walleye, creamy hop infused slaw, greens, locally made lefse, spicy tartar sauce</p>
+                        <span class="menu-item-price">14$</span>
+                        
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">GRILLED CAESAR</h4>
+                        <p class="menu-item-igridients">grilled romaine, crostinis, house made caesar dressing</p>
+                        <span class="menu-item-price">12$</span>
+                        <p class="add-ingridient">add grilled chicken........3$</p>
+                        
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">UFFDA HOTDISH</h4>
+                        <p class="menu-item-igridients">see menu chalkboard for our weekly features</p>
+                        <span class="menu-item-price">14$</span>
+                        <p class="add-ingridient">add grilled chicken........3$</p>
+                        
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">NORTH LOOP COBB</h4>
+                        <p class="menu-item-igridients">local Reval greens, eggs, blue cheese, bacon, tomato, creamy buttermilk ranch</p>
+                        <span class="menu-item-price">13$</span>
+                        <p class="add-ingridient">add grilled chicken........3$</p>
+                        <img class="img-menu-item" src="img/gluten-free.svg" alt="Gluten free"-->
+                    </div>
                 </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <p class="add-ingridient">add grilled chicken........3$</p>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <p class="add-ingridient">add grilled chicken........3$</p>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <p class="add-ingridient">add grilled chicken........3$</p>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <!-- menu-items-end -->
-            </section>
-            <!-- LARGE-PLATES-MENU-END -->
-
             <!-- SANDWICHES-MENU-START -->
-            <section class="sandwiches">
+            
+            <div class="sandwiches">
                 <div class="menu-header">
                     <h1 class="header-section-menu">Sandwiches</h1>
                     <p class="desc-header-section-menu">Have a nibble or mix & match</p>
                 </div>
+                <hr>
                 <!-- menu-items-start -->
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">LOCAL BURGER*</h4>
+                        <p class="menu-item-igridients">herbed cream cheese, pecan wood bacon, local greens, heirloom tomato, loacl bun</p>
+                        <span class="menu-item-price">14$</span>
+                        
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">CRAFT GRILLED CHEESE</h4>
+                        <p class="menu-item-igridients">please see the taproom chalkboard for today's creation</p>
+                        <span class="menu-item-price">14$</span>
+                        
+                    </div>
                 </div>
                 <!-- menu-items-end -->
-            </section>
+            </div>
             <!-- SANDWICHES-MENU-END -->
 
             <!-- HAPPY-HOUR-MENU-START -->
-            <section class="sandwiches">
+            <div class="sandwiches">
                 <div class="menu-header">
                     <h1 class="header-section-menu">Sandwiches</h1>
                     <p class="desc-header-section-menu">Have a nibble or mix & match</p>
                 </div>
                 <!-- menu-items-start -->
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
-                </div>
-                <div class="menu-item">
-                    <h4 class="menu-item-heading">MAC & CHEESE</h4>
-                    <p class="menu-item-igridients">creamy beer cheese, parmesan</p>
-                    <span class="menu-item-price">7$</span>
-                    <img class="img-menu-item" src="img/icon-vegan-food.png" alt="">
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">MAC & CHEESE</h4>
+        
+                        <span class="menu-item-price">6$</span>
+        
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">TRUFFLE FRIES</h4>
+        
+                        <span class="menu-item-price">4$</span>
+        
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">HANDMADE PRETZELS</h4>
+        
+                        <span class="menu-item-price">6$</span>
+        
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">MINNESOTA SUSHI</h4>
+                        
+                        <span class="menu-item-price">5$</span>
+        
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">DEVILED EGGS</h4>
+        
+                        <span class="menu-item-price">5$</span>
+        
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-heading">NORTHWOODS SLIDERS</h4>
+        
+                        <span class="menu-item-price">7$</span>
+        
+                    </div>
+                    <div class="menu-item menu-item2">
+                        <h4 class="menu-item-heading">CRISPY BRUSSELS SPROUTS</h4>
+        
+                        <span class="menu-item-price">7$</span>
+        
+                    </div>
                 </div>
                 <!-- menu-items-end -->
-            </section>
-            <!-- HAPPY-HOUR-MENU-END -->
+            </div>
+         
+    </div>   <!-- HAPPY-HOUR-MENU-END -->
     </main>
     <footer>
-            <p>Copyright</p>
-            <img src="" alt="facebook">
-            <img src="" alt="twitter">
-            <img src="" alt="telegram">
-            <img src="" alt="instagram">
+        <p>Copyright</p>
+        <div class="icons-social">
+            <img src="img/facebook.png" alt="facebook">
+            <img src="img/twitter.png" alt="twitter">
+            <img src="img/telegram.png" alt="telegram">
+            <img src="img/instagram.png" alt="instagram">
+        </div>
     </footer>
-    
+</div>
 </body>
 </html>
