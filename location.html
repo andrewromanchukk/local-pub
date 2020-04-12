@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logo-ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/location.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Local Beer&Kitchen</title>
 </head>
 <body>
-    <header>
-        <a href="index.html/">
-            <img src="/logo/" alt="logo-mini">
-        </a>
-        <a href="index.html">home</a>
-        <a href="menu.html">menu</a>
-        <a href="taplist.html">tap list</a>
-        <a href="reservations.html">reservations</a>
-        <a href="events-catering.html">events/cathering</a>
-        <a href="location.html">location&hours</a>
-    </header>
+    <div class="wrapper" style="background: linear-gradient(0deg, rgba(19, 19, 19, 0.82), rgba(19, 19, 19, 0.82)), url(img/bg1.jpg); background-attachment: fixed; background-size: contain;">
+        <header class="header">
+                    
+            <nav>
+                <a href="index.html"><img src="img/logo-mini.png" alt="logo-mini"></a>
+                <ul class="top-menu">
+                    <li><a href="index.html" class="menu-link">home</a></li>
+                    <li><a href="menu.html" class="menu-link">menu</a></li>
+                    <li><a href="taplist.html" class="menu-link">taplist</a></li>
+                    <li><a href="reservations.html" class="menu-link">reservations</a></li>
+                    <li><a href="events-catering.html" class="menu-link">events-catering</a></li>
+                    <li><a href="location.html" class="menu-link">location</a></li>
+                </ul>
+            </nav>
+        
+        </header>
     <main>
-        <section class="location-hours">
+        <div class="location-hours">
             <h1>Minneapolis</h1>
             <div class="location-events-header">
                 <h1>location & hours</h1>
@@ -52,17 +58,23 @@
                         </p>
                 </div>
             </div>
-        </section>
-        <section class="iframe-map">
-            <div class="google-map"></div>
-        </section>
+
+            <div class="responsive-map">
+                <div class="google-map"></div>
+            </div>
+        </div>
+        </div>
+        
     </main>
     <footer>
-            <p>Copyright</p>
-            <img src="" alt="facebook">
-            <img src="" alt="twitter">
-            <img src="" alt="telegram">
-            <img src="" alt="instagram">
+        <p>Copyright</p>
+        <div class="icons-social">
+            <img src="img/facebook.png" alt="facebook">
+            <img src="img/twitter.png" alt="twitter">
+            <img src="img/telegram.png" alt="telegram">
+            <img src="img/instagram.png" alt="instagram">
+        </div>
     </footer>
+    </div>
 </body>
 </html>
