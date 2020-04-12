@@ -4,60 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/logo-ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/events-catering.css">
+    <title>Local Beer&Kitchen</title>
 </head>
-<body>
-    <header>
-        <a href="index.html/">
-            <img src="/logo/" alt="logo-mini">
-        </a>
-        <a href="index.html">home</a>
-        <a href="menu.html">menu</a>
-        <a href="taplist.html">tap list</a>
-        <a href="reservations.html">reservations</a>
-        <a href="events-catering.html">events/cathering</a>
-        <a href="location.html">location&hours</a>
-    </header>
-    <main>
-    <section class="events-catering">
-        <div class="event-container">
-            <div class="event-desc">
-                <h1 class="header-event">Plan your event</h1>
-                <h5 class="desc-header-event">From yoga to game watches, LOCAL is the perfect place to host your group event!</h5>
+
+    <div class="wrapper" style="background: linear-gradient(0deg, rgba(19, 19, 19, 0.82), rgba(19, 19, 19, 0.82)), url(img/bg1.jpg); background-attachment: fixed; background-size: contain;">
+        <header class="header">
+                    
+            <nav>
+                <a href="index.html"><img src="img/logo-mini.png" alt="logo-mini"></a>
+                <ul class="top-menu">
+                    <li><a href="index.html" class="menu-link">home</a></li>
+                    <li><a href="menu.html" class="menu-link">menu</a></li>
+                    <li><a href="taplist.html" class="menu-link">taplist</a></li>
+                    <li><a href="reservations.html" class="menu-link">reservations</a></li>
+                    <li><a href="events-catering.html" class="menu-link">events-catering</a></li>
+                    <li><a href="location.html" class="menu-link">location</a></li>
+                </ul>
+            </nav>
+        
+        </header>
+        <main>
+        <div class="events-wrap">
+            <div class="events-catering">
+                <div class="event-container margin-bottom-30px">
+                    <div class="event-desc">
+                        <h1 class="header-event capitalize">Plan your event</h1><hr>
+                        <p class="desc-header-event">From yoga to game watches, LOCAL is the perfect place to host your group event!</p>
+                    </div>
+                    <div class="image-event">
+                        <img src="img/PLAN-YOUR-EVENT.JPG" alt="">
+                    </div>
+                </div>
+                <div class="event-container">
+                    <div class="event-desc">
+                        <h1 class="header-event capitalize">Let Us Cater</h1><hr>
+                        <p class="desc-header-event">Both onsite and offsite, let LOCAL cater your event! We have various menus and options to choose from.</p>
+                    </div>
+                    <div class="image-event">
+                        <img src="img/LET-US-CATER.JPG" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="image-event">
-                <img src="" alt="">
+            <div class="form-event">
+                <div class="form-event-container">
+                    <h3 class="form-event-header">Contact owner below to schedule a tour or book your event!</h3>
+                    <form action="/index.html"><center>
+                        <label for="yname"><input type="text" id="name" name="your-name" placeholder="What's Your Name?" required></label>
+                        <label for="yemail"><input type="email" id="email" name="your-email" placeholder="What's Your Email?" required></label>
+                        <label for="ynumber"><input type="text" id="number" name="your-phone-number" placeholder="What's Your Phone Number?" required></label>
+                        <label><textarea name="ytextarea" id="textarea" cols="30" rows="10" placeholder="How We Can Help?"></textarea></label>
+                        <input type="submit" value="submit">
+                    </form>
+                </div>
             </div>
         </div>
-        <div class="event-container">
-            <div class="event-desc">
-                <h1 class="header-event">Plan your event</h1>
-                <h5 class="desc-header-event">From yoga to game watches, LOCAL is the perfect place to host your group event!</h5>
-            </div>
-            <div class="image-event">
-                <img src="" alt="">
-            </div>
-        </div>
-    </section>
-    <section class="form-event">
-        <div class="form-event-container">
-            <h3 class="form-event-header">Contact owner below to schedule a tour or book your event!</h3>
-            <form action="/">
-                <label for="yname"><input type="text" id="yname" name="your-name" placeholder="What's Your Name?" required></label>
-                <label for="yemail"><input type="email" id="yemail" name="your-email" placeholder="What's Your Email?" required></label>
-                <label for="ynumber"><input type="text" id="ynumber" name="your-phone-number" placeholder="What's Your Phone Number?" required></label>
-                <label><textarea name="ytextarea" id="ytextarea" cols="30" rows="10" placeholder="How We Can Help?"></textarea></label>
-            </form>
-        </div>
-    </section>
-    </main>
-    <footer>
+        </main>
+        <footer>
             <p>Copyright</p>
-            <img src="" alt="facebook">
-            <img src="" alt="twitter">
-            <img src="" alt="telegram">
-            <img src="" alt="instagram">
-    </footer>
-    
+            <div class="icons-social">
+                <img src="img/facebook.png" alt="facebook">
+                <img src="img/twitter.png" alt="twitter">
+                <img src="img/telegram.png" alt="telegram">
+                <img src="img/instagram.png" alt="instagram">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
