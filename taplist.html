@@ -3,118 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="css/taplist.css"><meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="index.html/">
-            <img src="/logo/" alt="logo-mini">
-        </a>
-        <a href="index.html">home</a>
-        <a href="menu.html">menu</a>
-        <a href="taplist.html">tap list</a>
-        <a href="reservations.html">reservations</a>
-        <a href="events-catering.html">events/cathering</a>
-        <a href="location.html">location&hours</a>
+    <div class="wrapper" style="background: linear-gradient(0deg, rgba(19, 19, 19, 0.82), rgba(19, 19, 19, 0.82)), url(img/bg1.jpg); background-attachment: fixed; background-size: contain;">
+        <header class="header">
+            
+            <nav>
+                <a href="index.html"><img src="img/logo-mini.png" alt="logo-mini"></a>
+                <ul class="top-menu">
+                    <li><a href="index.html" class="menu-link">home</a></li>
+                    <li><a href="menu.html" class="menu-link">menu</a></li>
+                    <li><a href="taplist.html" class="menu-link">taplist</a></li>
+                    <li><a href="reservations.html" class="menu-link">reservations</a></li>
+                    <li><a href="events-catering.html" class="menu-link">events-catering</a></li>
+                    <li><a href="location.html" class="menu-link">location</a></li>
+                </ul>
+            </nav>
+        
     </header>
-    <main>
+        <main>
+                <!-- HEADER-ONTAP -->
+            <div class="on-tap">
+                <h1 class="header-on-tap">on tap</h1>
+                <h2 class="desc-header-main">DANCING GNOME HAS A ROTATING TAP LIST THAT MAY CHANGE DAILY. <br> HERE'S WHAT'S POURING FRESH TODAY. <hr></h2>
+                
+            </div>
+            
             <!-- HEADER-ONTAP -->
-        <section class="on-tap">
-            <h1 class="header-on-tap">on tap</h1>
-            <h2 class="desc-header-main">DANCING GNOME HAS A ROTATING TAP LIST THAT MAY CHANGE DAILY. <br> HERE'S WHAT'S POURING FRESH TODAY.</h2>
-        </section>
-        <!-- HEADER-ONTAP -->
 
-        <!-- TAPLIST-START -->
-        <section class="tap-list">
-            <div class="container-header-tap-list">
-                <h1 class="header-tap-list">tap list</h1>
-                <h2 class="desc-header-upd">Updated on Mar 21, 2020.</h2>
-            </div>
-            <!-- tap-list-items-start -->
-            <div class="tap-list-items-container">
-                <div class="tap-list-item">
-                    <h5 class="title-beer">Upward Below</h5> <p class="title-beer-italic">petite IPA - Citra, Mosaic</p>
-                    <h5 class="abv-beer">4% ABV</h5>
-                    <p class="desc-beer">This 4% session ale is well hopped with Citra and Mosaic. This beer has super bright citrus notes and a light, crushable body for the impending dog days.</p>
-                    <h6 class="serving-sizes">Serving Sizes:</h6> <p class="sizes-pint">Half Pint, Pint</p>
+            <!-- TAPLIST-START -->
+            <div class="tap-list">
+                <div class="container-header-tap-list">
+                    <p class="header-tap-list">tap list</p>
+                    <p class="desc-header-upd">Updated on Mar 21, 2020.</p>
                 </div>
-            </div>
-            <div class="tap-list-items-container">
-                <div class="tap-list-item">
-                    <h5 class="title-beer">Upward Below</h5> <p class="title-beer-italic">petite IPA - Citra, Mosaic</p>
-                    <h5 class="abv-beer">4% ABV</h5>
-                    <p class="desc-beer">This 4% session ale is well hopped with Citra and Mosaic. This beer has super bright citrus notes and a light, crushable body for the impending dog days.</p>
-                    <h6 class="serving-sizes">Serving Sizes:</h6> <p class="sizes-pint">Half Pint, Pint</p>
+                <hr>
+                <!-- tap-list-items-start -->
+                <div class="tap-list-items-container">
+                    <div class="tap-list-item">
+                        <p class="title-beer">Upward Below</p> <p class="title-beer-italic">petite IPA - Citra, Mosaic</p>
+                        <p class="abv-beer">4% ABV</p>
+                        <p class="desc-beer">This 4% session ale is well hopped with Citra and Mosaic. This beer has super bright citrus notes and a light, crushable body for the impending dog days.</p>
+                        <div class="serving">
+                            <p class="serving-sizes">Serving Sizes:</p> <p class="sizes-pint"> &nbsp;Half Pint, Pint</p>
+                        </div>
+                    </div>
+                
+                
+                    <div class="tap-list-item">
+                        <p class="title-beer">Rare Bourbon County Brand Stout</p> <p class="title-beer-italic">Stout - American Imperial / Double</p>
+                        <p class="abv-beer">13% ABV</p>
+                        <p class="desc-beer">Aged 2 years in 23-year old Pappy Van Winkle Bourbon Barrels. A true rarity—savor and share it only with those you hold dear, as it will never be made again.</p>
+                        <div class="serving">
+                            <p class="serving-sizes">Serving Sizes:</p> <p class="sizes-pint"> &nbsp;Half Pint, Pint</p>
+                        </div>
+                    </div>
+                
+                
+                    <div class="tap-list-item">
+                        <p class="title-beer">King Julius</p> <p class="title-beer-italic">IPA - Imperial / Double</p>
+                        <p class="abv-beer">8.2% ABV</p>
+                        <p class="desc-beer">King Julius is an American Double IPA brewed to be an exceptionally flavorful, juicy, and hop saturated beer while never tiring the palate. Its vivid citrus aromas give way to flavors of orange creamsicle, mango smoothie, and a bounty of fresh tropical fruit. We find it to be supremely soft in the midst of an onslaught of flavor...a beer we are quite proud of. </p>
+                        <div class="serving">
+                            <p class="serving-sizes">Serving Sizes:</p> <p class="sizes-pint"> &nbsp;Half Pint, Pint</p>
+                        </div>
+                    </div>
+                
+                
+                    <div class="tap-list-item">
+                        <p class="title-beer">Very Hazy</p> <p class="title-beer-italic">IPA - Imperial / Double</p>
+                        <p class="abv-beer">8.3% ABV</p>
+                        <p class="desc-beer">A kicked up version of Haze, our Double IPA, Very Hazy is a beer that makes us Very Happy! Very Hazy conveys all the beautiful flavors of Haze, but with even greater depth and potency. Pungent grapefruit notes greet your palate while an underlying current of soft tropical fruit dances in the background. Just the right amount of bitterness balances the sweet fruit flavors while a velvety soft mouthfeel make you easily (and dangerously!) forget this one clocks in at 8.6% ABV. A huge and beautiful beer that maintains softness and delicacy. </p>
+                        <div class="serving">
+                            <p class="serving-sizes">Serving Sizes:</p> <p class="sizes-pint"> &nbsp;Half Pint, Pint</p>
+                        </div>
+                    </div>
+                
+                
+                    <div class="tap-list-item">
+                        <p class="title-beer">Alter Ego</p> <p class="title-beer-italic">IPA - American</p>
+                        <p class="abv-beer">6.3% ABV</p>
+                        <p class="desc-beer">Alter Ego is a member of the Julius family, taking the base of Julius and adding a tremendous amount of Mosaic to the dry hop with a kiss of Amarillo. What results is a beer with all the deliciousness of Julius with a pungent additional layer of citrusy complexity. Over time, Alter Ego has become a truly singular member of the Tree House family.</p>
+                        <div class="serving">
+                            <p class="serving-sizes">Serving Sizes:</p> <p class="sizes-pint"> &nbsp;Half Pint, Pint</p>
+                        </div>
+                    </div>
+                
+                
+                    <div class="tap-list-item">
+                        <p class="title-beer">Doppelgänger</p> <p class="title-beer-italic">IPA - Imperial / Double</p>
+                        <p class="abv-beer">8% ABV</p>
+                        <p class="desc-beer">This beer is an imperial version of Alter Ego. It is intensely kettle and dry hopped to produce a pungent and flavorful Double IPA that is super pleasant to drink. It is simply and easily described as a juicy and dank citrus bomb.</p>
+                        <div class="serving">
+                            <p class="serving-sizes">Serving Sizes:</p> <p class="sizes-pint"> &nbsp;Half Pint, Pint</p>
+                        </div>
+                    </div>
+                
+                
+                    <div class="tap-list-item">
+                        <p class="title-beer">Expressionism</p> <p class="title-beer-italic">Stout - Imperial / Double</p>
+                        <p class="abv-beer">9.3% ABV</p>
+                        <p class="desc-beer">Expressionism is an imperial stout brewed with an array of Chocolate, Roasted, and Brown Malts. Its flavor is a function of complex and carefully selected ingredients and precise brewing application. It has gentle stout flavors, eschewing heavy bitter roast characteristics in favor of notes like cocoa powder, dark candy sugar, caramel, and dark fruit. It is best enjoyed in a snifter while allowed to warm to 50 degrees. It will keep well when kept cold for up to 6 months, evolving in the can to become more integrated, complex, and rewarding with time. We encourage you to try one fresh, and then again over several months to reveal evolving layers of complexity. Expressionism is the second installment in a new line of dark beers to be brewed in the Autumn and Winter of 2018!</p>
+                        <div class="serving">
+                            <p class="serving-sizes">Serving Sizes:</p> <p class="sizes-pint"> &nbsp;Half Pint, Pint</p>
+                        </div>
+                    </div>
+                
+                
+                    <div class="tap-list-item">
+                        <p class="title-beer">Homemade</p> <p class="title-beer-italic">Stout - Imperial / Double Milk</p>
+                        <p class="abv-beer">9.6% ABV</p>
+                        <p class="desc-beer">Homemade is an imperial milk stout made with chocolate fudge, walnuts, and a hint of maple syrup. It pours a silky black in the glass with a dense, marshmallow-like head. we taste and smell milk chocolate, chocolate covered walnuts, and maple walnut truffles. Yum!</p>
+                        <div class="serving">
+                            <p class="serving-sizes">Serving Sizes:</p> <p class="sizes-pint"> &nbsp;Half Pint, Pint</p>
+                        </div>
+                    </div>
+                
+                
+                    <div class="tap-list-item">
+                        <p class="title-beer">I Will Not Be Afraid</p> <p class="title-beer-italic">Stout - Imperial / Double Milk</p>
+                        <p class="abv-beer">9.3 % ABV</p>
+                        <p class="desc-beer">We are excited to welcome a new member of the Tree House Imperial Milk Stout Family - I Will Not Be Afraid! Brewed with an assortment of chocolate, roasted, and pale malts and carefully dosed with cacao and coffee, I Will Not Be Afraid is an immensely enjoyable Tree House Imperial Milk Stout. We taste intense syrupy dark chocolate, caramelized candy sugar, chocolate covered espresso beans, and a hint of cherry cola. This beer is luxurious and silky, like chocolate clouds, yet never relies on an overly saccharine complexion to bring out the intense and complex flavors we have worked so diligently to impart. We welcome you to enjoy it by the fireplace as we head into the cooler New England seasons. (Keep this beer cold at all times. Allowing it to warm will be detrimental to its character, flavor profile, and longevity)</p>
+                        <div class="serving">
+                            <p class="serving-sizes">Serving Sizes:</p> <p class="sizes-pint"> &nbsp;Half Pint, Pint</p>
+                        </div>
+                    </div>
                 </div>
+                <!-- taplist-items-end -->
             </div>
-            <div class="tap-list-items-container">
-                <div class="tap-list-item">
-                    <h5 class="title-beer">Upward Below</h5> <p class="title-beer-italic">petite IPA - Citra, Mosaic</p>
-                    <h5 class="abv-beer">4% ABV</h5>
-                    <p class="desc-beer">This 4% session ale is well hopped with Citra and Mosaic. This beer has super bright citrus notes and a light, crushable body for the impending dog days.</p>
-                    <h6 class="serving-sizes">Serving Sizes:</h6> <p class="sizes-pint">Half Pint, Pint</p>
-                </div>
-            </div>
-            <div class="tap-list-items-container">
-                <div class="tap-list-item">
-                    <h5 class="title-beer">Upward Below</h5> <p class="title-beer-italic">petite IPA - Citra, Mosaic</p>
-                    <h5 class="abv-beer">4% ABV</h5>
-                    <p class="desc-beer">This 4% session ale is well hopped with Citra and Mosaic. This beer has super bright citrus notes and a light, crushable body for the impending dog days.</p>
-                    <h6 class="serving-sizes">Serving Sizes:</h6> <p class="sizes-pint">Half Pint, Pint</p>
-                </div>
-            </div>
-            <div class="tap-list-items-container">
-                <div class="tap-list-item">
-                    <h5 class="title-beer">Upward Below</h5> <p class="title-beer-italic">petite IPA - Citra, Mosaic</p>
-                    <h5 class="abv-beer">4% ABV</h5>
-                    <p class="desc-beer">This 4% session ale is well hopped with Citra and Mosaic. This beer has super bright citrus notes and a light, crushable body for the impending dog days.</p>
-                    <h6 class="serving-sizes">Serving Sizes:</h6> <p class="sizes-pint">Half Pint, Pint</p>
-                </div>
-            </div>
-            <div class="tap-list-items-container">
-                <div class="tap-list-item">
-                    <h5 class="title-beer">Upward Below</h5> <p class="title-beer-italic">petite IPA - Citra, Mosaic</p>
-                    <h5 class="abv-beer">4% ABV</h5>
-                    <p class="desc-beer">This 4% session ale is well hopped with Citra and Mosaic. This beer has super bright citrus notes and a light, crushable body for the impending dog days.</p>
-                    <h6 class="serving-sizes">Serving Sizes:</h6> <p class="sizes-pint">Half Pint, Pint</p>
-                </div>
-            </div>
-            <div class="tap-list-items-container">
-                <div class="tap-list-item">
-                    <h5 class="title-beer">Upward Below</h5> <p class="title-beer-italic">petite IPA - Citra, Mosaic</p>
-                    <h5 class="abv-beer">4% ABV</h5>
-                    <p class="desc-beer">This 4% session ale is well hopped with Citra and Mosaic. This beer has super bright citrus notes and a light, crushable body for the impending dog days.</p>
-                    <h6 class="serving-sizes">Serving Sizes:</h6> <p class="sizes-pint">Half Pint, Pint</p>
-                </div>
-            </div>
-            <div class="tap-list-items-container">
-                <div class="tap-list-item">
-                    <h5 class="title-beer">Upward Below</h5> <p class="title-beer-italic">petite IPA - Citra, Mosaic</p>
-                    <h5 class="abv-beer">4% ABV</h5>
-                    <p class="desc-beer">This 4% session ale is well hopped with Citra and Mosaic. This beer has super bright citrus notes and a light, crushable body for the impending dog days.</p>
-                    <h6 class="serving-sizes">Serving Sizes:</h6> <p class="sizes-pint">Half Pint, Pint</p>
-                </div>
-            </div>
-            <div class="tap-list-items-container">
-                <div class="tap-list-item">
-                    <h5 class="title-beer">Upward Below</h5> <p class="title-beer-italic">petite IPA - Citra, Mosaic</p>
-                    <h5 class="abv-beer">4% ABV</h5>
-                    <p class="desc-beer">This 4% session ale is well hopped with Citra and Mosaic. This beer has super bright citrus notes and a light, crushable body for the impending dog days.</p>
-                    <h6 class="serving-sizes">Serving Sizes:</h6> <p class="sizes-pint">Half Pint, Pint</p>
-                </div>
-            </div>
-            <!-- taplist-items-end -->
-        </section>
-        <!-- TAPLIST-END -->
-    </main>
-    <footer>
+            <!-- TAPLIST-END -->
+        </main>
+        <footer>
             <p>Copyright</p>
-            <img src="" alt="facebook">
-            <img src="" alt="twitter">
-            <img src="" alt="telegram">
-            <img src="" alt="instagram">
-    </footer>
+            <div class="icons-social">
+                <img src="img/facebook.png" alt="facebook">
+                <img src="img/twitter.png" alt="twitter">
+                <img src="img/telegram.png" alt="telegram">
+                <img src="img/instagram.png" alt="instagram">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
