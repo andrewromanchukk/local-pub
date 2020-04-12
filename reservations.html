@@ -4,63 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reservations.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="index.html/">
-            <img src="/logo/" alt="logo-mini">
-        </a>
-        <a href="index.html">home</a>
-        <a href="menu.html">menu</a>
-        <a href="taplist.html">tap list</a>
-        <a href="reservations.html">reservations</a>
-        <a href="events-catering.html">events/cathering</a>
-        <a href="location.html">location&hours</a>
-    </header>
-    <main>
-        <section class="reservation">
-            <div class="reservation-header-container">
-                <h1 class="header-reservation">Reservation Policy and Form</h1>
-                <p class="desc-reservation-header">At Local Craft beer & kitchen, we strive to take the stress out of planning your party or event. Our reservation management staff is excited to help you plan and host your special event, allowing you to relax and enjoy the party with confidence. We accept reservations for groups of 10 or more, only.</p>
+    <div class="wrapper" style="background: linear-gradient(0deg, rgba(19, 19, 19, 0.82), rgba(19, 19, 19, 0.82)), url(img/bg1.jpg); background-attachment: fixed; background-size: contain;">
+        <header class="header">
+                
+            <nav>
+                <a href="index.html"><img src="img/logo-mini.png" alt="logo-mini"></a>
+                <ul class="top-menu">
+                    <li><a href="index.html" class="menu-link">home</a></li>
+                    <li><a href="menu.html" class="menu-link">menu</a></li>
+                    <li><a href="taplist.html" class="menu-link">taplist</a></li>
+                    <li><a href="reservations.html" class="menu-link">reservations</a></li>
+                    <li><a href="events-catering.html" class="menu-link">events-catering</a></li>
+                    <li><a href="location.html" class="menu-link">location</a></li>
+                </ul>
+            </nav>
+        
+        </header>
+        <main>
+            <div class="reservation">
+                <div class="reservation-header-container">
+                    <h1 class="header-reservation text-align-center">Reservation Policy and Form</h1>
+                    <p class="desc-reservation-header desc-policy-header text-align-center">At Local Craft beer & kitchen, we strive to take the stress out of planning your party or event. Our reservation management staff is excited to help you plan and host your special event, allowing you to relax and enjoy the party with confidence. We accept reservations for groups of 10 or more, only.</p>
+                </div>
+                <div class="reservation-policy ">
+                <h1 class="policy-header text-align-center">Reservation policy</h1>
+                <p class="desc-policy-header text-align-center font-size-14px">We accept reservations for groups of 10 or more, only. <br>
+
+                    Parties of 10 or more will require reservations at least 24 hours in advance. Reservations of 15 or more will be held to a 2-hour time limit. <br> 
+
+                    A valid credit card must be provided to hold the reservation. <br>
+
+                    For groups of 30 or more, please inquire about rental & package options - andrew@local.beer
+                </p>
+                </div>
+                <div class="container-form-reservation">
+                    <form action="/index.html">
+                    <p class="input-name">Name:</p>
+                    <label for="name"><input type="text" id="name" name="name" required></label>
+                    <p class="input-name">Email:</p>
+                    <label for="email"><input type="email" id="email" name="email" required></label>
+                    <p class="input-name">Phone Number:</p>
+                    <label for="ph-number"><input type="text" id="ph-number" name="ph-number" required></label>
+                    <p class="input-name">Request Date & Time:</p>
+                    <label for="date"><input type="date" id="date" name="date-time" min="20.02.2020" max="31.08.2020"></label>
+                    <p class="input-name">Party Size:</p>
+                    <label for="party"><input type="text" id="party" name="party-size" placeholder="min. 10"></label>
+                    <p class="input-name">Is this a special occasion? Other information we should know?:</p>
+                    <label><textarea name="textarea" id="textarea" rows="10" placeholder="Pleace type here"></textarea></label><br>
+                    <input type="submit" value="Reservation">
+
+                    </form>
+                </div>
             </div>
-            <div class="reservation-policy">
-            <h1 class="policy-header">Reservation policy</h1>
-            <p class="desc-policy-header">We accept reservations for groups of 10 or more, only. <br>
-
-                Parties of 10 or more will require reservations at least 24 hours in advance. Reservations of 15 or more will be held to a 2-hour time limit. <br> 
-
-                A valid credit card must be provided to hold the reservation. <br>
-
-                For groups of 30 or more, please inquire about rental & package options - andrew@local.beer
-            </p>
-            </div>
-            <div class="container-form-reservation">
-                <form action="/">
-                <p class="input-name">Name:</p>
-                <label for="name"><input type="text" id="name" name="name" required></label>
-                <p class="input-name">Email:</p>
-                <label for="email"><input type="email" id="email" name="email" required></label>
-                <p class="input-name">Phone Number:</p>
-                <label for="ph-number"><input type="text" id="ph-number" name="ph-number" required></label>
-                <p class="input-name">Request Date & Time:</p>
-                <label for="date"><input type="date" id="date" name="date-time" min="20.02.2020" max="31.08.2020"></label>
-                <p class="input-name">Party Size:</p>
-                <label for="party"><input type="text" id="party" name="party-size" placeholder="min. 10"></label>
-                <p class="input-name">Is this a special occasion? Other information we should know?:</p>
-                <label><textarea name="textarea" id="textarea" cols="30" rows="10"></textarea></label>
-                <input type="submit">
-
-                </form>
-            </div>
-        </section>
-    </main>
-    <footer>
+        </main>
+        <footer>
             <p>Copyright</p>
-            <img src="" alt="facebook">
-            <img src="" alt="twitter">
-            <img src="" alt="telegram">
-            <img src="" alt="instagram">
-    </footer>
+            <div class="icons-social">
+                <img src="img/facebook.png" alt="facebook">
+                <img src="img/twitter.png" alt="twitter">
+                <img src="img/telegram.png" alt="telegram">
+                <img src="img/instagram.png" alt="instagram">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

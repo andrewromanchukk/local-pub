@@ -7,11 +7,12 @@ header, body,ul,h4, p{
     margin:0;
     padding:0;
 }
+
 /* header */
 header {
     background-color: #000;
     border-bottom: 2px solid #fff;
-    
+    margin-bottom: 30px;
 }
 li{
     list-style: none;
@@ -72,126 +73,70 @@ li{
 }
 
 /* header */
-
-/* ontap header */
-.on-tap{
-    background-color: rgba(19, 19, 19, 0.82);
-    text-align: center;
-}
-.header-on-tap{
-    color:#fff;
-    text-transform: uppercase;
-    font-size: 32px;
-}
-.desc-header-main{
-    color:#fff;
-    padding-bottom: 20px;
-}
-/* ontap header */
-
-/* taplist container */
-.tap-list{
-    color:#fff;
-    background-color: rgba(19, 19, 19, 0.82);
-    padding: 20px 0;
+.reservation{
+    background-color: rgba(196, 196, 196, 0.82);
     margin: 30px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
-.container-header-tap-list{
+.text-align-center{
     text-align: center;
 }
-.header-tap-list{
-    text-transform: uppercase;
-    font-size: 32px;
-    margin: 0em;
-
+.font-size-14px{
+    font-size: 14px;
 }
-.desc-header-upd{
-    font-size: 10px;
-    margin-bottom: 20px;
-    font-style: italic;
-}
-hr{
-    width:30%;
-}
-/* taplist container */
-
-/* tap-list-items */
-.tap-list{
+.container-form-reservation{
     max-width: 900px;
-    margin:auto;
+    padding-bottom: 30px;
 }
-.title-beer{
-    font-size: 14px;
-    font-weight: bold;
+.desc-policy-header{
+    margin-bottom: 30px;
 }
-.title-beer-italic{
-    font-style: italic;
-    font-size: 12px;
+/* form */
+input[type=text],input[type=email], textarea{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border:1px solid #131313;
 }
-.tap-list-item{
-    padding: 0px 10px;
-    margin: 20px 0;
+ input[type=text]:focus{
+    background-color: #f0f0f0b0;
 }
-.abv-beer{
-    margin:10px 0;
-    font-size: 14px;
+input[type=email]:focus{
+    background-color: #f0f0f0b0;
 }
-.desc-beer{
-    font-size: 12px;
+textarea:focus{
+    background-color: #f0f0f0b0;
 }
-.serving{
-    display: flex;
+#date{
+    padding: 5px 5px;
+    margin: 8px 0;
 }
-.serving-sizes{
-    font-size: 12px;
-    font-weight: bold;
+#textarea{
+    width:70%;
 }
-.sizes-pint{
-    font-size: 12px;
+input[type=submit]{
+    border: 1px solid #000;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    background-color: rgba(46, 46, 46, 0.308);
+    margin-top: 10px;
+}
+
+input[type=submit]:hover{                                   
+    background-color: #969696;
 }
 @media(min-width:768px){
-    .title-beer{
-        font-size: 16px;
+    .container-form-reservation{
+        margin: auto;
     }
-    .title-beer-italic{
-        font-style: italic;
-        font-size: 14px;
+    .text-align-center{
+        padding: 0 50px;
     }
-    .tap-list-item{
-        padding: 0px 50px;
-        margin: 20px 0;
-    }
-    .abv-beer{
-        margin:10px 0;
-        font-size: 16px;
-    }
-    .desc-beer{
-        font-size: 14px;
-    }
-    .serving{
-        display: flex;
-    }
-    .serving-sizes{
-        font-size: 14px;
-        font-weight: bold;
-    }
-    .sizes-pint{
-        font-size: 14px;
-    }
-
 }
-@media(min-width:1024px){
-
-
-}
-/* tap-list-items */
-
-
-
-
-
-
-
 
 
 
@@ -202,7 +147,7 @@ footer{
     color: #fff;
     text-align: center;
     font-size: 12px;
-   margin-top: 30px;
+   
 }
 .icons-social{
     display: flex;

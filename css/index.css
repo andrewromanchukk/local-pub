@@ -293,6 +293,10 @@ color:white;
     background-color: rgba(196, 196, 196, 0.13); 
     
 }
+.reservation-button:hover{
+    border: 1px solid #000000;
+    color:#000;
+}
 @media(min-width:768px){
     
 
