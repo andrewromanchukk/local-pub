@@ -62,8 +62,54 @@ li{
 }
 
 /* header */
-.location-hours{
+.main-headings{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align:center;
+    color:#fff;
+    margin-top: 20px;;
+}
+hr{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.mini-headings{
+    color:#000;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    margin: 25px 0
+}
+
+.container-location-hours{
+    border: 2px solid #fff;
     background-color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+    max-width: 700px;
+    margin: auto;
+
+}
+.iframe-map{
+    padding:50px 0;
+    display: flex;
+    justify-content: center;
+}
+@media(min-width:768px){
+    .container-location-hours{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       height: 400px;
+       align-items: center;
+
+    }
+
+}
+@media(min-width:1024px){
+   
 }
 
 

@@ -25,7 +25,7 @@
             </nav>
         
     </header>
-    <div class="wrapper" style="background: linear-gradient(0deg, rgba(19, 19, 19, 0.82), rgba(19, 19, 19, 0.82)), url(img/bg1.jpg); background-attachment: fixed; background-size: contain;">
+    <div class="wrapper" >
     <main>
         <div class="baner">
             <div class="paragraphs-left">
@@ -63,31 +63,69 @@
         <div class="choose-your-favorite">
             <div class="choose-your-favorite-heading">
                 <h1 class="main-headings">choose your favorite</h1>
+                <hr>
             </div>
             <div class="container-beer-slider">
-                <img src="img/marshall_rocknroll_craft_bier.png" alt="">
-                <p>Marshall Rock'n'roll</p>
-                <p>petite IPA Citra, Mosaic</p>
-                <p>4% ABV</p>
+                <div class="slider">
+                    <div class="slider__wrapper">
+                      <div class="slider__item">
+                        <div><img src="img/marshall_rocknroll_craft_bier.png" alt=""></div>
+                            <p class="font-size12px">Marshall Rock'n'roll</p>
+                            <p class="font-size12px">petite IPA Citra, Mosaic</p>
+                            <p class="font-size12px">4% ABV</p>
+                      </div>
+                      <div class="slider__item">
+                        <div ><img src="img/marshall_rocknroll_craft_bier.png" alt=""></div>
+                        
+                            <p>Marshall Rock'n'roll</p>
+                            <p>petite IPA Citra, Mosaic</p>
+                            <p>4% ABV</p>
+                          
+                      </div>
+                      <div class="slider__item">
+                        <div><img src="img/marshall_rocknroll_craft_bier.png" alt=""></div>
+                            <p>Marshall Rock'n'roll</p>
+                            <p>petite IPA Citra, Mosaic</p>
+                            <p>4% ABV</p>
+                      </div>
+                      <div class="slider__item">
+                        <div><img src="img/marshall_rocknroll_craft_bier.png" alt=""></div>
+                            <p>Marshall Rock'n'roll</p>
+                            <p>petite IPA Citra, Mosaic</p>
+                            <p>4% ABV</p>
+                      </div>
+                    </div>
+                    <a class="slider__control slider__control_left" href="#" role="button"></a>
+                    <a class="slider__control slider__control_right" href="#" role="button"></a>
+                </div>
+                
             </div>
         </div>
         <div class="about-us">
             <div class="about-us-heading">
                 <h1 class="main-headings">about us</h1>
+                <hr>
             </div>
             <div class="about-us-container">
                 <p class="default-container-text"> We host a huge variety of craft beer, wine, cider, and kombucha for you to pour as much or as little as you’d like! Our taps are ever-rotating to bring you a wide selection of craft and small-batch libations from across the country. Check out our taplist for the latest! </p>
                 <div class="container-about-us-gallery">
-                    <img src="img/about_us1.jpg" alt="">
-                    <img src="img/about-us4.jpg" alt="">
-                    <img src="img/about-us2.jpg" alt="">
-                    <img src="img/about-us3.jpg" alt="">
-                    <div class="iframe-fbpage"></div>
+                    
+                    <div class="img-col flex-dirrection-column">
+                        <img class="2" src="img/about-us3.jpg" alt="">
+                        <img class="3" src="img/about-us4.jpg" alt="">
+                    </div>
+                    <div class="img-col flex-dirrection-column">
+                        <img class="2" src="img/about-us5.jpg" alt="">
+                        <img class="3" src="img/about-us6.jpg" alt="">
+                    </div>
+
+                    <div class="iframe-fbpage ">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFansofCraftBeer%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div>
                 
             </div>
         </div>
-        <div class="eat-tap-here" style="background-image:url(img/bg2.jpg); mix-blend-mode: luminosity;  background-size: contain;">
+        <div class="eat-tap-here" style="background-image:url(img/bg2.jpg); mix-blend-mode: luminosity;  background-size: cover;">
             <div class="eat-here">
                 <a href="#">eat here</a>
             </div>
@@ -99,11 +137,12 @@
         <div class="private-events-reservations container-medium">
             <div class="private-events-reservations-header">
                 <h1 class="main-headings">private events & reservations</h1>
+                <hr>
             </div>
             <div class="container-private-events-reservations">
                 <h2>fancy a beer party?</h2>
-                <p class="default-container-text">We accept reservations for 10+ people. Please check out our <a href="reservations.html"> Reservations Page</a>.</p>
-                <p class="default-container-text">If you're interested in renting out any part of the restaurant, or a full space buyout please email owner Joe Maselter at joe@fwww.beer for pricing and food menus.</p>
+                <p class="">We accept reservations for 10+ people. Please check out our <a href="reservations.html"> Reservations Page</a>.</p>
+                <p class="">If you're interested in renting out any part of the restaurant, or a full space buyout please email owner Joe Maselter at joe@fwww.beer for pricing and food menus.</p>
                 <div class="button-container">
                 <a href="reservations.html" class="reservation-button">reservation</a>
                 </div>
@@ -113,6 +152,7 @@
         <div class="location-hours">
             <div class="location-events-header">
                 <h1 class="main-headings">location & hours</h1>
+                <hr>
             </div>
             <div class="container-location-hours">
                 <div class="location-hours-address">
@@ -143,10 +183,8 @@
             </div>
         </div>
         <div class="iframe-map">
-            <div class="google-map">
-                
-              iframe
-            </div>
+                <iframe width="600" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=324%206th%20Avenue%20N%20Minneapolis%2C%20MN%2055401&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            
         </div>
     </main>
 </div>
@@ -159,6 +197,6 @@
                 <img src="img/instagram.png" alt="instagram">
             </div>
         </footer>
-
+<script src="js/index.js"></script>
 </body>
 </html>
