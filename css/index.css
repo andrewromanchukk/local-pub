@@ -227,7 +227,7 @@ color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image:url(/img/bg2.jpg);
+    background-image:url(../img/bg2.jpg);
     mix-blend-mode: luminosity;
     background-size: cover;
 }
